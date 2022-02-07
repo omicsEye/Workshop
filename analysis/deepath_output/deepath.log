@@ -1,0 +1,15 @@
+2021-09-12 16:06:47 INFO::Writing function arguments to log file
+2021-09-12 16:06:47 DEBUG::Function arguments
+2021-09-12 16:06:47 DEBUG::Output folder: analysis/deepath_output
+2021-09-12 16:06:47 DEBUG::Score type: coef
+2021-09-12 16:06:47 DEBUG::p-value threshold: NA
+2021-09-12 16:06:47 DEBUG::Pathway subject: NA
+2021-09-12 16:06:47 INFO::Verifying options selected are valid
+2021-09-12 16:06:47 WARNING::Deleting existing stats table file: analysis/deepath_output/stats_table.tsv
+2021-09-12 16:06:47 INFO::Writing stats table to file analysis/deepath_output/stats_table.tsv
+2021-09-12 16:06:47 INFO::Running selected analysis method: ks
+2021-09-12 16:06:47 INFO::Loading files is done, now calculating enrichments p-value! This may take 10 or more minutes!!!
+2021-09-12 16:06:47 WARNING::Deleting existing stats table file: analysis/deepath_output/enrichment_stats.tsv
+2021-09-12 16:06:47 INFO::Writing enrichment stats table to file analysis/deepath_output/enrichment_stats.tsv
+2021-09-12 16:06:47 INFO::Plotting data for feature, enrichment
+2021-09-12 16:06:49 INFO::Writing enrichment plots (one for each significant association) to output folder: analysis/deepath_output

@@ -1,0 +1,684 @@
+2021-09-12 15:09:57 INFO::Writing function arguments to log file
+2021-09-12 15:09:57 DEBUG::Function arguments
+2021-09-12 15:09:57 DEBUG::Output folder: analysis/Tweedieverse_output
+2021-09-12 15:09:57 DEBUG::Abundance threshold: 0.000000
+2021-09-12 15:09:57 DEBUG::Prevalence threshold: 0.100000
+2021-09-12 15:09:57 DEBUG::Variance threshold: 0.000000
+2021-09-12 15:09:57 DEBUG::Base model: CPLM
+2021-09-12 15:09:57 DEBUG::Link function: log
+2021-09-12 15:09:57 DEBUG::Fixed effects:
+2021-09-12 15:09:57 DEBUG::Random effects:
+2021-09-12 15:09:57 DEBUG::ZSCP cutoff: 0.300000
+2021-09-12 15:09:57 DEBUG::ZACP criteria: BIC
+2021-09-12 15:09:57 DEBUG::Offset adjustment: TRUE
+2021-09-12 15:09:57 DEBUG::Scale factor:
+2021-09-12 15:09:57 DEBUG::Max significance: 0.100000
+2021-09-12 15:09:57 DEBUG::Correction method: BH
+2021-09-12 15:09:57 DEBUG::Standardize: FALSE
+2021-09-12 15:09:57 DEBUG::Cores: 1
+2021-09-12 15:09:57 DEBUG::Optimization routine: nlminb
+2021-09-12 15:09:57 INFO::Determining format of input files
+2021-09-12 15:09:57 INFO::Input format is data samples as rows and metadata samples as rows
+2021-09-12 15:09:57 DEBUG::A total of 15 samples were found in both the data and metadata
+2021-09-12 15:09:57 DEBUG::Reordering data/metadata to use same sample ordering
+2021-09-12 15:09:57 INFO::Filter data based on min abundance and min prevalence
+2021-09-12 15:09:57 INFO::Total samples in data: 15
+2021-09-12 15:09:57 INFO::Min samples required with min abundance for a feature not to be filtered: 1.500000
+2021-09-12 15:09:57 INFO::Total filtered features with prevalence-abundance filtering: 0
+2021-09-12 15:09:57 INFO::Filtered feature names:
+2021-09-12 15:09:57 INFO::Total filtered features with variance filtering: 3
+2021-09-12 15:09:57 INFO::Filtered feature names: phenylacetylcarnitine, 5-methyluridine (ribothymidine), equol glucuronide
+2021-09-12 15:09:57 INFO::Formula for fixed effects: expr ~  Group
+2021-09-12 15:09:57 INFO::Bypass z-score application to metadata
+2021-09-12 15:09:57 INFO::Running selected analysis method: CPLM
+2021-09-12 15:09:57 INFO::Fitting model to feature number 1, glycine
+2021-09-12 15:09:57 INFO::Fitting model to feature number 2, N-acetylglycine
+2021-09-12 15:09:57 INFO::Fitting model to feature number 3, sarcosine
+2021-09-12 15:09:57 INFO::Fitting model to feature number 4, dimethylglycine
+2021-09-12 15:09:57 INFO::Fitting model to feature number 5, betaine
+2021-09-12 15:09:57 INFO::Fitting model to feature number 6, serine
+2021-09-12 15:09:57 INFO::Fitting model to feature number 7, N-acetylserine
+2021-09-12 15:09:57 INFO::Fitting model to feature number 8, threonine
+2021-09-12 15:09:58 INFO::Fitting model to feature number 9, N-acetylthreonine
+2021-09-12 15:09:58 INFO::Fitting model to feature number 10, alanine
+2021-09-12 15:09:58 INFO::Fitting model to feature number 11, N-acetylalanine
+2021-09-12 15:09:58 INFO::Fitting model to feature number 12, aspartate
+2021-09-12 15:09:58 INFO::Fitting model to feature number 13, N-acetylaspartate (NAA)
+2021-09-12 15:09:58 INFO::Fitting model to feature number 14, asparagine
+2021-09-12 15:09:58 INFO::Fitting model to feature number 15, N-acetylasparagine
+2021-09-12 15:09:58 INFO::Fitting model to feature number 16, hydroxyasparagine
+2021-09-12 15:09:58 INFO::Fitting model to feature number 17, glutamate
+2021-09-12 15:09:58 INFO::Fitting model to feature number 18, glutamine
+2021-09-12 15:09:58 INFO::Fitting model to feature number 19, alpha-ketoglutaramate*
+2021-09-12 15:09:58 INFO::Fitting model to feature number 20, N-acetylglutamate
+2021-09-12 15:09:58 INFO::Fitting model to feature number 21, N-acetylglutamine
+2021-09-12 15:09:58 INFO::Fitting model to feature number 22, 4-hydroxyglutamate
+2021-09-12 15:09:58 INFO::Fitting model to feature number 23, pyroglutamine*
+2021-09-12 15:09:58 INFO::Fitting model to feature number 24, N-acetyl-aspartyl-glutamate (NAAG)
+2021-09-12 15:09:58 INFO::Fitting model to feature number 25, carboxyethyl-GABA
+2021-09-12 15:09:58 INFO::Fitting model to feature number 26, S-1-pyrroline-5-carboxylate
+2021-09-12 15:09:58 INFO::Fitting model to feature number 27, histidine
+2021-09-12 15:09:58 INFO::Fitting model to feature number 28, 1-methylhistidine
+2021-09-12 15:09:59 INFO::Fitting model to feature number 29, 3-methylhistidine
+2021-09-12 15:09:59 INFO::Fitting model to feature number 30, N-acetylhistidine
+2021-09-12 15:09:59 INFO::Fitting model to feature number 31, N-acetyl-3-methylhistidine*
+2021-09-12 15:09:59 INFO::Fitting model to feature number 32, N-acetyl-1-methylhistidine*
+2021-09-12 15:09:59 INFO::Fitting model to feature number 33, trans-urocanate
+2021-09-12 15:09:59 INFO::Fitting model to feature number 34, imidazole propionate
+2021-09-12 15:09:59 INFO::Fitting model to feature number 35, formiminoglutamate
+2021-09-12 15:09:59 INFO::Fitting model to feature number 36, imidazole lactate
+2021-09-12 15:09:59 INFO::Fitting model to feature number 37, carnosine
+2021-09-12 15:09:59 INFO::Fitting model to feature number 38, N-acetylcarnosine
+2021-09-12 15:09:59 INFO::Fitting model to feature number 39, anserine
+2021-09-12 15:09:59 INFO::Fitting model to feature number 40, histamine
+2021-09-12 15:09:59 INFO::Fitting model to feature number 41, 1-methyl-4-imidazoleacetate
+2021-09-12 15:09:59 INFO::Fitting model to feature number 42, 1-methyl-5-imidazoleacetate
+2021-09-12 15:09:59 INFO::Fitting model to feature number 43, 1-ribosyl-imidazoleacetate*
+2021-09-12 15:09:59 INFO::Fitting model to feature number 44, 4-imidazoleacetate
+2021-09-12 15:09:59 INFO::Fitting model to feature number 45, lysine
+2021-09-12 15:09:59 INFO::Fitting model to feature number 46, N6-acetyllysine
+2021-09-12 15:09:59 INFO::Fitting model to feature number 47, N6-methyllysine
+2021-09-12 15:09:59 INFO::Fitting model to feature number 48, N6,N6-dimethyllysine
+2021-09-12 15:09:59 INFO::Fitting model to feature number 49, N6,N6,N6-trimethyllysine
+2021-09-12 15:09:59 INFO::Fitting model to feature number 50, 5-(galactosylhydroxy)-L-lysine
+2021-09-12 15:10:00 INFO::Fitting model to feature number 51, fructosyllysine
+2021-09-12 15:10:00 INFO::Fitting model to feature number 52, 2-aminoadipate
+2021-09-12 15:10:00 INFO::Fitting model to feature number 53, 2-oxoadipate
+2021-09-12 15:10:00 INFO::Fitting model to feature number 54, pipecolate
+2021-09-12 15:10:00 INFO::Fitting model to feature number 55, 5-aminovalerate
+2021-09-12 15:10:00 INFO::Fitting model to feature number 56, N,N,N-trimethyl-5-aminovalerate
+2021-09-12 15:10:00 INFO::Fitting model to feature number 57, phenylalanine
+2021-09-12 15:10:00 INFO::Fitting model to feature number 58, N-acetylphenylalanine
+2021-09-12 15:10:00 INFO::Fitting model to feature number 59, phenyllactate (PLA)
+2021-09-12 15:10:00 INFO::Fitting model to feature number 60, phenylacetate
+2021-09-12 15:10:00 INFO::Fitting model to feature number 61, tyrosine
+2021-09-12 15:10:00 INFO::Fitting model to feature number 62, N-acetyltyrosine
+2021-09-12 15:10:00 INFO::Fitting model to feature number 63, 3-(4-hydroxyphenyl)lactate (HPLA)
+2021-09-12 15:10:00 INFO::Fitting model to feature number 64, phenol sulfate
+2021-09-12 15:10:00 INFO::Fitting model to feature number 65, phenol glucuronide
+2021-09-12 15:10:00 INFO::Fitting model to feature number 66, 3-methoxytyrosine
+2021-09-12 15:10:00 INFO::Fitting model to feature number 67, p-cresol glucuronide*
+2021-09-12 15:10:00 INFO::Fitting model to feature number 68, tryptophan
+2021-09-12 15:10:00 INFO::Fitting model to feature number 69, N-acetyltryptophan
+2021-09-12 15:10:01 INFO::Fitting model to feature number 70, C-glycosyltryptophan
+2021-09-12 15:10:01 INFO::Fitting model to feature number 71, kynurenine
+2021-09-12 15:10:01 INFO::Fitting model to feature number 72, N-acetylkynurenine (2)
+2021-09-12 15:10:01 INFO::Fitting model to feature number 73, kynurenate
+2021-09-12 15:10:01 INFO::Fitting model to feature number 74, picolinate
+2021-09-12 15:10:01 INFO::Fitting model to feature number 75, serotonin
+2021-09-12 15:10:01 INFO::Fitting model to feature number 76, 5-hydroxyindoleacetate
+2021-09-12 15:10:01 INFO::Fitting model to feature number 77, indolelactate
+2021-09-12 15:10:01 INFO::Fitting model to feature number 78, indoleacetate
+2021-09-12 15:10:01 INFO::Fitting model to feature number 79, indolepropionate
+2021-09-12 15:10:01 INFO::Fitting model to feature number 80, indoleacetylglycine
+2021-09-12 15:10:01 INFO::Fitting model to feature number 81, 3-indoxyl sulfate
+2021-09-12 15:10:01 INFO::Fitting model to feature number 82, leucine
+2021-09-12 15:10:01 INFO::Fitting model to feature number 83, N-acetylleucine
+2021-09-12 15:10:01 INFO::Fitting model to feature number 84, 4-methyl-2-oxopentanoate
+2021-09-12 15:10:01 INFO::Fitting model to feature number 85, alpha-hydroxyisocaproate
+2021-09-12 15:10:01 INFO::Fitting model to feature number 86, isovalerate (C5)
+2021-09-12 15:10:01 INFO::Fitting model to feature number 87, isovalerylglycine
+2021-09-12 15:10:01 INFO::Fitting model to feature number 88, isovalerylcarnitine (C5)
+2021-09-12 15:10:01 INFO::Fitting model to feature number 89, 3-methylcrotonylglycine
+2021-09-12 15:10:01 INFO::Fitting model to feature number 90, beta-hydroxyisovalerate
+2021-09-12 15:10:01 INFO::Fitting model to feature number 91, 3-methylglutaconate
+2021-09-12 15:10:01 INFO::Fitting model to feature number 92, isoleucine
+2021-09-12 15:10:02 INFO::Fitting model to feature number 93, N-acetylisoleucine
+2021-09-12 15:10:02 INFO::Fitting model to feature number 94, 3-methyl-2-oxovalerate
+2021-09-12 15:10:02 INFO::Fitting model to feature number 95, 2-hydroxy-3-methylvalerate
+2021-09-12 15:10:02 INFO::Fitting model to feature number 96, 2-methylbutyrylcarnitine (C5)
+2021-09-12 15:10:02 INFO::Fitting model to feature number 97, tiglyl carnitine (C5)
+2021-09-12 15:10:02 INFO::Fitting model to feature number 98, 3-hydroxy-2-ethylpropionate
+2021-09-12 15:10:02 INFO::Fitting model to feature number 99, ethylmalonate
+2021-09-12 15:10:02 INFO::Fitting model to feature number 100, methylsuccinate
+2021-09-12 15:10:02 INFO::Fitting model to feature number 101, valine
+2021-09-12 15:10:02 INFO::Fitting model to feature number 102, N-acetylvaline
+2021-09-12 15:10:02 INFO::Fitting model to feature number 103, 3-methyl-2-oxobutyrate
+2021-09-12 15:10:02 INFO::Fitting model to feature number 104, alpha-hydroxyisovalerate
+2021-09-12 15:10:02 INFO::Fitting model to feature number 105, isobutyrylcarnitine (C4)
+2021-09-12 15:10:02 INFO::Fitting model to feature number 106, 3-hydroxyisobutyrate
+2021-09-12 15:10:02 INFO::Fitting model to feature number 107, methionine
+2021-09-12 15:10:02 INFO::Fitting model to feature number 108, N-acetylmethionine
+2021-09-12 15:10:02 INFO::Fitting model to feature number 109, N-formylmethionine
+2021-09-12 15:10:02 INFO::Fitting model to feature number 110, methionine sulfoxide
+2021-09-12 15:10:03 INFO::Fitting model to feature number 111, 5-methylthioribose
+2021-09-12 15:10:03 INFO::Fitting model to feature number 112, 2,3-dihydroxy-5-methylthio-4-pentenoate (DMTPA)*
+2021-09-12 15:10:03 INFO::Fitting model to feature number 113, cystathionine
+2021-09-12 15:10:03 INFO::Fitting model to feature number 114, cysteine
+2021-09-12 15:10:03 INFO::Fitting model to feature number 115, S-methylcysteine
+2021-09-12 15:10:03 INFO::Fitting model to feature number 116, S-methylcysteine sulfoxide
+2021-09-12 15:10:03 INFO::Fitting model to feature number 117, cysteine s-sulfate
+2021-09-12 15:10:03 INFO::Fitting model to feature number 118, cystine
+2021-09-12 15:10:03 INFO::Fitting model to feature number 119, cysteine sulfinic acid
+2021-09-12 15:10:03 INFO::Fitting model to feature number 120, hypotaurine
+2021-09-12 15:10:03 INFO::Fitting model to feature number 121, taurine
+2021-09-12 15:10:03 INFO::Fitting model to feature number 122, N-acetyltaurine
+2021-09-12 15:10:03 INFO::Fitting model to feature number 123, arginine
+2021-09-12 15:10:03 INFO::Fitting model to feature number 124, argininosuccinate
+2021-09-12 15:10:03 INFO::Fitting model to feature number 125, urea
+2021-09-12 15:10:03 INFO::Fitting model to feature number 126, ornithine
+2021-09-12 15:10:03 INFO::Fitting model to feature number 127, 3-amino-2-piperidone
+2021-09-12 15:10:03 INFO::Fitting model to feature number 128, 2-oxoarginine*
+2021-09-12 15:10:03 INFO::Fitting model to feature number 129, citrulline
+2021-09-12 15:10:03 INFO::Fitting model to feature number 130, homoarginine
+2021-09-12 15:10:04 INFO::Fitting model to feature number 131, homocitrulline
+2021-09-12 15:10:04 INFO::Fitting model to feature number 132, proline
+2021-09-12 15:10:04 INFO::Fitting model to feature number 133, dimethylarginine (ADMA + SDMA)
+2021-09-12 15:10:04 INFO::Fitting model to feature number 134, N-acetylarginine
+2021-09-12 15:10:04 INFO::Fitting model to feature number 135, N-acetylcitrulline
+2021-09-12 15:10:04 INFO::Fitting model to feature number 136, N-acetylproline
+2021-09-12 15:10:04 INFO::Fitting model to feature number 137, N-delta-acetylornithine
+2021-09-12 15:10:04 INFO::Fitting model to feature number 138, N-alpha-acetylornithine
+2021-09-12 15:10:04 INFO::Fitting model to feature number 139, N-methylhydroxyproline
+2021-09-12 15:10:04 INFO::Fitting model to feature number 140, hydroxyproline
+2021-09-12 15:10:04 INFO::Fitting model to feature number 141, prolylhydroxyproline
+2021-09-12 15:10:04 INFO::Fitting model to feature number 142, N-methylproline
+2021-09-12 15:10:04 INFO::Fitting model to feature number 143, N,N,N-trimethyl-alanylproline betaine (TMAP)
+2021-09-12 15:10:04 INFO::Fitting model to feature number 144, N-monomethylarginine
+2021-09-12 15:10:04 INFO::Fitting model to feature number 145, N-acetylhomocitrulline
+2021-09-12 15:10:04 INFO::Fitting model to feature number 146, guanidinoacetate
+2021-09-12 15:10:04 INFO::Fitting model to feature number 147, creatine
+2021-09-12 15:10:04 INFO::Fitting model to feature number 148, creatinine
+2021-09-12 15:10:04 INFO::Fitting model to feature number 149, creatine phosphate
+2021-09-12 15:10:04 INFO::Fitting model to feature number 150, putrescine
+2021-09-12 15:10:04 INFO::Fitting model to feature number 151, N-acetyl-isoputreanine*
+2021-09-12 15:10:05 INFO::Fitting model to feature number 152, spermidine
+2021-09-12 15:10:05 INFO::Fitting model to feature number 153, N('1)-acetylspermidine
+2021-09-12 15:10:05 INFO::Fitting model to feature number 154, 5-methylthioadenosine (MTA)
+2021-09-12 15:10:05 INFO::Fitting model to feature number 155, 4-acetamidobutanoate
+2021-09-12 15:10:05 INFO::Fitting model to feature number 156, 4-guanidinobutanoate
+2021-09-12 15:10:05 INFO::Fitting model to feature number 157, glutathione, oxidized (GSSG)
+2021-09-12 15:10:05 INFO::Fitting model to feature number 158, cysteine-glutathione disulfide
+2021-09-12 15:10:05 INFO::Fitting model to feature number 159, cysteinylglycine disulfide*
+2021-09-12 15:10:05 INFO::Fitting model to feature number 160, 5-oxoproline
+2021-09-12 15:10:05 INFO::Fitting model to feature number 161, 2-aminobutyrate
+2021-09-12 15:10:05 INFO::Fitting model to feature number 162, 2-hydroxybutyrate/2-hydroxyisobutyrate
+2021-09-12 15:10:05 INFO::Fitting model to feature number 163, ophthalmate
+2021-09-12 15:10:05 INFO::Fitting model to feature number 164, gamma-glutamylalanine
+2021-09-12 15:10:05 INFO::Fitting model to feature number 165, gamma-glutamylglutamate
+2021-09-12 15:10:05 INFO::Fitting model to feature number 166, gamma-glutamylglutamine
+2021-09-12 15:10:05 INFO::Fitting model to feature number 167, gamma-glutamylglycine
+2021-09-12 15:10:05 INFO::Fitting model to feature number 168, gamma-glutamylhistidine
+2021-09-12 15:10:05 INFO::Fitting model to feature number 169, gamma-glutamylisoleucine*
+2021-09-12 15:10:05 INFO::Fitting model to feature number 170, gamma-glutamylleucine
+2021-09-12 15:10:06 INFO::Fitting model to feature number 171, gamma-glutamyl-alpha-lysine
+2021-09-12 15:10:06 INFO::Fitting model to feature number 172, gamma-glutamyl-epsilon-lysine
+2021-09-12 15:10:06 INFO::Fitting model to feature number 173, gamma-glutamylmethionine
+2021-09-12 15:10:06 INFO::Fitting model to feature number 174, gamma-glutamylphenylalanine
+2021-09-12 15:10:06 INFO::Fitting model to feature number 175, gamma-glutamylthreonine
+2021-09-12 15:10:06 INFO::Fitting model to feature number 176, gamma-glutamyltryptophan
+2021-09-12 15:10:06 INFO::Fitting model to feature number 177, gamma-glutamyltyrosine
+2021-09-12 15:10:06 INFO::Fitting model to feature number 178, gamma-glutamylvaline
+2021-09-12 15:10:06 INFO::Fitting model to feature number 179, gamma-glutamylcitrulline*
+2021-09-12 15:10:06 INFO::Fitting model to feature number 180, phenylacetylglutamine
+2021-09-12 15:10:06 INFO::Fitting model to feature number 181, phenylacetylglycine
+2021-09-12 15:10:06 INFO::Fitting model to feature number 182, 1,5-anhydroglucitol (1,5-AG)
+2021-09-12 15:10:06 INFO::Fitting model to feature number 183, glucose
+2021-09-12 15:10:06 INFO::Fitting model to feature number 184, pyruvate
+2021-09-12 15:10:06 INFO::Fitting model to feature number 185, lactate
+2021-09-12 15:10:06 INFO::Fitting model to feature number 186, glycerate
+2021-09-12 15:10:06 INFO::Fitting model to feature number 187, ribose
+2021-09-12 15:10:06 INFO::Fitting model to feature number 188, ribitol
+2021-09-12 15:10:07 INFO::Fitting model to feature number 189, ribonate (ribonolactone)
+2021-09-12 15:10:07 INFO::Fitting model to feature number 190, xylose
+2021-09-12 15:10:07 INFO::Fitting model to feature number 191, arabitol/xylitol
+2021-09-12 15:10:07 INFO::Fitting model to feature number 192, arabonate/xylonate
+2021-09-12 15:10:07 INFO::Fitting model to feature number 193, ribulonate/xylulonate/lyxonate*
+2021-09-12 15:10:07 INFO::Fitting model to feature number 194, fructose
+2021-09-12 15:10:07 INFO::Fitting model to feature number 195, mannitol/sorbitol
+2021-09-12 15:10:07 INFO::Fitting model to feature number 196, mannose
+2021-09-12 15:10:07 INFO::Fitting model to feature number 197, galactitol (dulcitol)
+2021-09-12 15:10:07 INFO::Fitting model to feature number 198, galactonate
+2021-09-12 15:10:07 INFO::Fitting model to feature number 199, glucuronate
+2021-09-12 15:10:07 INFO::Fitting model to feature number 200, N-acetylneuraminate
+2021-09-12 15:10:07 INFO::Fitting model to feature number 201, erythronate*
+2021-09-12 15:10:07 INFO::Fitting model to feature number 202, N-acetylglucosamine/N-acetylgalactosamine
+2021-09-12 15:10:07 INFO::Fitting model to feature number 203, N-glycolylneuraminate
+2021-09-12 15:10:07 INFO::Fitting model to feature number 204, citrate
+2021-09-12 15:10:07 INFO::Fitting model to feature number 205, aconitate [cis or trans]
+2021-09-12 15:10:07 INFO::Fitting model to feature number 206, alpha-ketoglutarate
+2021-09-12 15:10:07 INFO::Fitting model to feature number 207, succinylcarnitine (C4)
+2021-09-12 15:10:07 INFO::Fitting model to feature number 208, succinate
+2021-09-12 15:10:07 INFO::Fitting model to feature number 209, fumarate
+2021-09-12 15:10:08 INFO::Fitting model to feature number 210, malate
+2021-09-12 15:10:08 INFO::Fitting model to feature number 211, tricarballylate
+2021-09-12 15:10:08 INFO::Fitting model to feature number 212, phosphate
+2021-09-12 15:10:08 INFO::Fitting model to feature number 213, malonylcarnitine
+2021-09-12 15:10:08 INFO::Fitting model to feature number 214, malonate
+2021-09-12 15:10:08 INFO::Fitting model to feature number 215, valerate (5:0)
+2021-09-12 15:10:08 INFO::Fitting model to feature number 216, caproate (6:0)
+2021-09-12 15:10:08 INFO::Fitting model to feature number 217, heptanoate (7:0)
+2021-09-12 15:10:08 INFO::Fitting model to feature number 218, caprylate (8:0)
+2021-09-12 15:10:08 INFO::Fitting model to feature number 219, caprate (10:0)
+2021-09-12 15:10:08 INFO::Fitting model to feature number 220, cis-4-decenoate (10:1n6)*
+2021-09-12 15:10:08 INFO::Fitting model to feature number 221, laurate (12:0)
+2021-09-12 15:10:08 INFO::Fitting model to feature number 222, 5-dodecenoate (12:1n7)
+2021-09-12 15:10:08 INFO::Fitting model to feature number 223, myristate (14:0)
+2021-09-12 15:10:08 INFO::Fitting model to feature number 224, pentadecanoate (15:0)
+2021-09-12 15:10:08 INFO::Fitting model to feature number 225, palmitate (16:0)
+2021-09-12 15:10:08 INFO::Fitting model to feature number 226, margarate (17:0)
+2021-09-12 15:10:08 INFO::Fitting model to feature number 227, stearate (18:0)
+2021-09-12 15:10:08 INFO::Fitting model to feature number 228, nonadecanoate (19:0)
+2021-09-12 15:10:08 INFO::Fitting model to feature number 229, arachidate (20:0)
+2021-09-12 15:10:08 INFO::Fitting model to feature number 230, myristoleate (14:1n5)
+2021-09-12 15:10:08 INFO::Fitting model to feature number 231, palmitoleate (16:1n7)
+2021-09-12 15:10:08 INFO::Fitting model to feature number 232, 10-heptadecenoate (17:1n7)
+2021-09-12 15:10:09 INFO::Fitting model to feature number 233, oleate/vaccenate (18:1)
+2021-09-12 15:10:09 INFO::Fitting model to feature number 234, 10-nonadecenoate (19:1n9)
+2021-09-12 15:10:09 INFO::Fitting model to feature number 235, eicosenoate (20:1n9 or 1n11)
+2021-09-12 15:10:09 INFO::Fitting model to feature number 236, erucate (22:1n9)
+2021-09-12 15:10:09 INFO::Fitting model to feature number 237, tetradecadienoate (14:2)*
+2021-09-12 15:10:09 INFO::Fitting model to feature number 238, stearidonate (18:4n3)
+2021-09-12 15:10:09 INFO::Fitting model to feature number 239, eicosapentaenoate (EPA; 20:5n3)
+2021-09-12 15:10:09 INFO::Fitting model to feature number 240, docosapentaenoate (DPA; 22:5n3)
+2021-09-12 15:10:09 INFO::Fitting model to feature number 241, docosahexaenoate (DHA; 22:6n3)
+2021-09-12 15:10:09 INFO::Fitting model to feature number 242, hexadecadienoate (16:2n6)
+2021-09-12 15:10:09 INFO::Fitting model to feature number 243, linoleate (18:2n6)
+2021-09-12 15:10:09 INFO::Fitting model to feature number 244, linolenate (18:3n3 or 3n6)
+2021-09-12 15:10:09 INFO::Fitting model to feature number 245, dihomolinoleate (20:2n6)
+2021-09-12 15:10:09 INFO::Fitting model to feature number 246, dihomolinolenate (20:3n3 or 3n6)
+2021-09-12 15:10:09 INFO::Fitting model to feature number 247, arachidonate (20:4n6)
+2021-09-12 15:10:09 INFO::Fitting model to feature number 248, adrenate (22:4n6)
+2021-09-12 15:10:09 INFO::Fitting model to feature number 249, docosapentaenoate (n6 DPA; 22:5n6)
+2021-09-12 15:10:09 INFO::Fitting model to feature number 250, docosadienoate (22:2n6)
+2021-09-12 15:10:09 INFO::Fitting model to feature number 251, mead acid (20:3n9)
+2021-09-12 15:10:09 INFO::Fitting model to feature number 252, 18-methylnonadecanoate (i20:0)
+2021-09-12 15:10:09 INFO::Fitting model to feature number 253, (14 or 15)-methylpalmitate (a17:0 or i17:0)
+2021-09-12 15:10:10 INFO::Fitting model to feature number 254, (16 or 17)-methylstearate (a19:0 or i19:0)
+2021-09-12 15:10:10 INFO::Fitting model to feature number 255, glutarate (C5-DC)
+2021-09-12 15:10:10 INFO::Fitting model to feature number 256, 2-hydroxyglutarate
+2021-09-12 15:10:10 INFO::Fitting model to feature number 257, 2-hydroxyadipate
+2021-09-12 15:10:10 INFO::Fitting model to feature number 258, 3-hydroxyadipate*
+2021-09-12 15:10:10 INFO::Fitting model to feature number 259, maleate
+2021-09-12 15:10:10 INFO::Fitting model to feature number 260, heptenedioate (C7:1-DC)*
+2021-09-12 15:10:10 INFO::Fitting model to feature number 261, azelate (nonanedioate; C9)
+2021-09-12 15:10:10 INFO::Fitting model to feature number 262, dodecadienoate (12:2)*
+2021-09-12 15:10:10 INFO::Fitting model to feature number 263, tetradecanedioate (C14)
+2021-09-12 15:10:10 INFO::Fitting model to feature number 264, hexadecanedioate (C16)
+2021-09-12 15:10:10 INFO::Fitting model to feature number 265, octadecanedioate (C18)
+2021-09-12 15:10:10 INFO::Fitting model to feature number 266, octadecenedioate (C18:1-DC)*
+2021-09-12 15:10:10 INFO::Fitting model to feature number 267, 2-aminoheptanoate
+2021-09-12 15:10:10 INFO::Fitting model to feature number 268, butyrylcarnitine (C4)
+2021-09-12 15:10:10 INFO::Fitting model to feature number 269, butyrylglycine (C4)
+2021-09-12 15:10:10 INFO::Fitting model to feature number 270, propionylcarnitine (C3)
+2021-09-12 15:10:10 INFO::Fitting model to feature number 271, methylmalonate (MMA)
+2021-09-12 15:10:10 INFO::Fitting model to feature number 272, acetylcarnitine (C2)
+2021-09-12 15:10:10 INFO::Fitting model to feature number 273, hexanoylcarnitine (C6)
+2021-09-12 15:10:10 INFO::Fitting model to feature number 274, octanoylcarnitine (C8)
+2021-09-12 15:10:11 INFO::Fitting model to feature number 275, laurylcarnitine (C12)
+2021-09-12 15:10:11 INFO::Fitting model to feature number 276, myristoylcarnitine (C14)
+2021-09-12 15:10:11 INFO::Fitting model to feature number 277, pentadecanoylcarnitine (C15)*
+2021-09-12 15:10:11 INFO::Fitting model to feature number 278, palmitoylcarnitine (C16)
+2021-09-12 15:10:11 INFO::Fitting model to feature number 279, margaroylcarnitine (C17)*
+2021-09-12 15:10:11 INFO::Fitting model to feature number 280, stearoylcarnitine (C18)
+2021-09-12 15:10:11 INFO::Fitting model to feature number 281, arachidoylcarnitine (C20)*
+2021-09-12 15:10:11 INFO::Fitting model to feature number 282, behenoylcarnitine (C22)*
+2021-09-12 15:10:11 INFO::Fitting model to feature number 283, lignoceroylcarnitine (C24)*
+2021-09-12 15:10:11 INFO::Fitting model to feature number 284, 3-decenoylcarnitine
+2021-09-12 15:10:11 INFO::Fitting model to feature number 285, cis-4-decenoylcarnitine (C10:1)
+2021-09-12 15:10:11 INFO::Fitting model to feature number 286, 5-dodecenoylcarnitine (C12:1)
+2021-09-12 15:10:11 INFO::Fitting model to feature number 287, myristoleoylcarnitine (C14:1)*
+2021-09-12 15:10:11 INFO::Fitting model to feature number 288, palmitoleoylcarnitine (C16:1)*
+2021-09-12 15:10:11 INFO::Fitting model to feature number 289, oleoylcarnitine (C18)
+2021-09-12 15:10:11 INFO::Fitting model to feature number 290, eicosenoylcarnitine (C20:1)*
+2021-09-12 15:10:11 INFO::Fitting model to feature number 291, nervonoylcarnitine (C24:1)*
+2021-09-12 15:10:11 INFO::Fitting model to feature number 292, ximenoylcarnitine (C26:1)*
+2021-09-12 15:10:11 INFO::Fitting model to feature number 293, linoleoylcarnitine (C18:2)*
+2021-09-12 15:10:11 INFO::Fitting model to feature number 294, dihomo-linoleoylcarnitine (C20:2)*
+2021-09-12 15:10:11 INFO::Fitting model to feature number 295, arachidonoylcarnitine (C20:4)
+2021-09-12 15:10:11 INFO::Fitting model to feature number 296, dihomo-linolenoylcarnitine (C20:3n3 or 6)*
+2021-09-12 15:10:11 INFO::Fitting model to feature number 297, (R)-3-hydroxybutyrylcarnitine
+2021-09-12 15:10:11 INFO::Fitting model to feature number 298, (S)-3-hydroxybutyrylcarnitine
+2021-09-12 15:10:12 INFO::Fitting model to feature number 299, 3-hydroxypalmitoylcarnitine
+2021-09-12 15:10:12 INFO::Fitting model to feature number 300, 3-hydroxyoleoylcarnitine
+2021-09-12 15:10:12 INFO::Fitting model to feature number 301, deoxycarnitine
+2021-09-12 15:10:12 INFO::Fitting model to feature number 302, carnitine
+2021-09-12 15:10:12 INFO::Fitting model to feature number 303, 3-hydroxybutyrate (BHBA)
+2021-09-12 15:10:12 INFO::Fitting model to feature number 304, palmitoylcholine
+2021-09-12 15:10:12 INFO::Fitting model to feature number 305, oleoylcholine
+2021-09-12 15:10:12 INFO::Fitting model to feature number 306, linoleoylcholine*
+2021-09-12 15:10:12 INFO::Fitting model to feature number 307, stearoylcholine*
+2021-09-12 15:10:12 INFO::Fitting model to feature number 308, docosahexaenoylcholine
+2021-09-12 15:10:12 INFO::Fitting model to feature number 309, arachidonoylcholine
+2021-09-12 15:10:12 INFO::Fitting model to feature number 310, 2-hydroxyheptanoate*
+2021-09-12 15:10:12 INFO::Fitting model to feature number 311, 2-hydroxypalmitate
+2021-09-12 15:10:12 INFO::Fitting model to feature number 312, 2-hydroxystearate
+2021-09-12 15:10:12 INFO::Fitting model to feature number 313, 3-hydroxyhexanoate
+2021-09-12 15:10:12 INFO::Fitting model to feature number 314, 3-hydroxyoctanoate
+2021-09-12 15:10:12 INFO::Fitting model to feature number 315, 3-hydroxydecanoate
+2021-09-12 15:10:12 INFO::Fitting model to feature number 316, 3-hydroxylaurate
+2021-09-12 15:10:12 INFO::Fitting model to feature number 317, 3-hydroxyoleate*
+2021-09-12 15:10:12 INFO::Fitting model to feature number 318, 16-hydroxypalmitate
+2021-09-12 15:10:12 INFO::Fitting model to feature number 319, 13-HODE + 9-HODE
+2021-09-12 15:10:13 INFO::Fitting model to feature number 320, 3-hydroxystearate
+2021-09-12 15:10:13 INFO::Fitting model to feature number 321, 2S,3R-dihydroxybutyrate
+2021-09-12 15:10:13 INFO::Fitting model to feature number 322, 2R,3R-dihydroxybutyrate
+2021-09-12 15:10:13 INFO::Fitting model to feature number 323, 12-HETE
+2021-09-12 15:10:13 INFO::Fitting model to feature number 324, oleoyl ethanolamide
+2021-09-12 15:10:13 INFO::Fitting model to feature number 325, palmitoyl ethanolamide
+2021-09-12 15:10:13 INFO::Fitting model to feature number 326, N-oleoyltaurine
+2021-09-12 15:10:13 INFO::Fitting model to feature number 327, N-linoleoyltaurine*
+2021-09-12 15:10:13 INFO::Fitting model to feature number 328, myo-inositol
+2021-09-12 15:10:13 INFO::Fitting model to feature number 329, choline
+2021-09-12 15:10:13 INFO::Fitting model to feature number 330, phosphocholine
+2021-09-12 15:10:13 INFO::Fitting model to feature number 331, glycerophosphorylcholine (GPC)
+2021-09-12 15:10:13 INFO::Fitting model to feature number 332, phosphoethanolamine (PE)
+2021-09-12 15:10:13 INFO::Fitting model to feature number 333, glycerophosphoethanolamine
+2021-09-12 15:10:13 INFO::Fitting model to feature number 334, glycerophosphoinositol*
+2021-09-12 15:10:13 INFO::Fitting model to feature number 335, trimethylamine N-oxide
+2021-09-12 15:10:13 INFO::Fitting model to feature number 336, 1-myristoyl-2-palmitoyl-GPC (14:0/16:0)
+2021-09-12 15:10:13 INFO::Fitting model to feature number 337, 1-myristoyl-2-arachidonoyl-GPC (14:0/20:4)*
+2021-09-12 15:10:13 INFO::Fitting model to feature number 338, 1,2-dipalmitoyl-GPC (16:0/16:0)
+2021-09-12 15:10:13 INFO::Fitting model to feature number 339, 1-palmitoyl-2-palmitoleoyl-GPC (16:0/16:1)*
+2021-09-12 15:10:13 INFO::Fitting model to feature number 340, 1-palmitoyl-2-stearoyl-GPC (16:0/18:0)
+2021-09-12 15:10:13 INFO::Fitting model to feature number 341, 1-palmitoyl-2-oleoyl-GPC (16:0/18:1)
+2021-09-12 15:10:13 INFO::Fitting model to feature number 342, 1-palmitoyl-2-linoleoyl-GPC (16:0/18:2)
+2021-09-12 15:10:14 INFO::Fitting model to feature number 343, 1-palmitoyl-2-gamma-linolenoyl-GPC (16:0/18:3n6)*
+2021-09-12 15:10:14 INFO::Fitting model to feature number 344, 1-palmitoyl-2-dihomo-linolenoyl-GPC (16:0/20:3n3 or 6)*
+2021-09-12 15:10:14 INFO::Fitting model to feature number 345, 1-palmitoyl-2-arachidonoyl-GPC (16:0/20:4n6)
+2021-09-12 15:10:14 INFO::Fitting model to feature number 346, 1-palmitoyl-2-docosahexaenoyl-GPC (16:0/22:6)
+2021-09-12 15:10:14 INFO::Fitting model to feature number 347, 1-palmitoleoyl-2-linoleoyl-GPC (16:1/18:2)*
+2021-09-12 15:10:14 INFO::Fitting model to feature number 348, 1-stearoyl-2-oleoyl-GPC (18:0/18:1)
+2021-09-12 15:10:14 INFO::Fitting model to feature number 349, 1-stearoyl-2-linoleoyl-GPC (18:0/18:2)*
+2021-09-12 15:10:14 INFO::Fitting model to feature number 350, 1-stearoyl-2-arachidonoyl-GPC (18:0/20:4)
+2021-09-12 15:10:14 INFO::Fitting model to feature number 351, 1-stearoyl-2-docosahexaenoyl-GPC (18:0/22:6)
+2021-09-12 15:10:14 INFO::Fitting model to feature number 352, 1-oleoyl-2-linoleoyl-GPC (18:1/18:2)*
+2021-09-12 15:10:14 INFO::Fitting model to feature number 353, 1-oleoyl-2-docosahexaenoyl-GPC (18:1/22:6)*
+2021-09-12 15:10:14 INFO::Fitting model to feature number 354, 1,2-dilinoleoyl-GPC (18:2/18:2)
+2021-09-12 15:10:14 INFO::Fitting model to feature number 355, 1-linoleoyl-2-linolenoyl-GPC (18:2/18:3)*
+2021-09-12 15:10:14 INFO::Fitting model to feature number 356, 1-linoleoyl-2-arachidonoyl-GPC (18:2/20:4n6)*
+2021-09-12 15:10:14 INFO::Fitting model to feature number 357, 1-palmitoyl-2-oleoyl-GPE (16:0/18:1)
+2021-09-12 15:10:14 INFO::Fitting model to feature number 358, 1-palmitoyl-2-linoleoyl-GPE (16:0/18:2)
+2021-09-12 15:10:14 INFO::Fitting model to feature number 359, 1-palmitoyl-2-arachidonoyl-GPE (16:0/20:4)*
+2021-09-12 15:10:14 INFO::Fitting model to feature number 360, 1-palmitoyl-2-docosahexaenoyl-GPE (16:0/22:6)*
+2021-09-12 15:10:14 INFO::Fitting model to feature number 361, 1-stearoyl-2-oleoyl-GPE (18:0/18:1)
+2021-09-12 15:10:14 INFO::Fitting model to feature number 362, 1-stearoyl-2-linoleoyl-GPE (18:0/18:2)*
+2021-09-12 15:10:14 INFO::Fitting model to feature number 363, 1-stearoyl-2-arachidonoyl-GPE (18:0/20:4)
+2021-09-12 15:10:14 INFO::Fitting model to feature number 364, 1-stearoyl-2-docosahexaenoyl-GPE (18:0/22:6)*
+2021-09-12 15:10:15 INFO::Fitting model to feature number 365, 1-oleoyl-2-linoleoyl-GPE (18:1/18:2)*
+2021-09-12 15:10:15 INFO::Fitting model to feature number 366, 1-linoleoyl-2-arachidonoyl-GPE (18:2/20:4)*
+2021-09-12 15:10:15 INFO::Fitting model to feature number 367, 1-palmitoyl-2-linoleoyl-GPI (16:0/18:2)
+2021-09-12 15:10:15 INFO::Fitting model to feature number 368, 1-palmitoyl-2-arachidonoyl-GPI (16:0/20:4)*
+2021-09-12 15:10:15 INFO::Fitting model to feature number 369, 1-stearoyl-2-linoleoyl-GPI (18:0/18:2)
+2021-09-12 15:10:15 INFO::Fitting model to feature number 370, 1-stearoyl-2-arachidonoyl-GPI (18:0/20:4)
+2021-09-12 15:10:15 INFO::Fitting model to feature number 371, 1-linoleoyl-GPA (18:2)*
+2021-09-12 15:10:15 INFO::Fitting model to feature number 372, 1-arachidonoyl-GPA (20:4)
+2021-09-12 15:10:15 INFO::Fitting model to feature number 373, 1-palmitoyl-GPC (16:0)
+2021-09-12 15:10:15 INFO::Fitting model to feature number 374, 2-palmitoyl-GPC* (16:0)*
+2021-09-12 15:10:15 INFO::Fitting model to feature number 375, 1-palmitoleoyl-GPC* (16:1)*
+2021-09-12 15:10:15 INFO::Fitting model to feature number 376, 1-stearoyl-GPC (18:0)
+2021-09-12 15:10:15 INFO::Fitting model to feature number 377, 1-oleoyl-GPC (18:1)
+2021-09-12 15:10:15 INFO::Fitting model to feature number 378, 1-linoleoyl-GPC (18:2)
+2021-09-12 15:10:15 INFO::Fitting model to feature number 379, 1-linolenoyl-GPC (18:3)*
+2021-09-12 15:10:15 INFO::Fitting model to feature number 380, 1-arachidonoyl-GPC* (20:4)*
+2021-09-12 15:10:15 INFO::Fitting model to feature number 381, 1-lignoceroyl-GPC (24:0)
+2021-09-12 15:10:15 INFO::Fitting model to feature number 382, 1-palmitoyl-GPE (16:0)
+2021-09-12 15:10:15 INFO::Fitting model to feature number 383, 1-stearoyl-GPE (18:0)
+2021-09-12 15:10:15 INFO::Fitting model to feature number 384, 2-stearoyl-GPE (18:0)*
+2021-09-12 15:10:15 INFO::Fitting model to feature number 385, 1-oleoyl-GPE (18:1)
+2021-09-12 15:10:16 INFO::Fitting model to feature number 386, 1-linoleoyl-GPE (18:2)*
+2021-09-12 15:10:16 INFO::Fitting model to feature number 387, 1-arachidonoyl-GPE (20:4n6)*
+2021-09-12 15:10:16 INFO::Fitting model to feature number 388, 1-linoleoyl-GPG (18:2)*
+2021-09-12 15:10:16 INFO::Fitting model to feature number 389, 1-palmitoyl-GPI* (16:0)
+2021-09-12 15:10:16 INFO::Fitting model to feature number 390, 1-stearoyl-GPI (18:0)
+2021-09-12 15:10:16 INFO::Fitting model to feature number 391, 1-oleoyl-GPI (18:1)
+2021-09-12 15:10:16 INFO::Fitting model to feature number 392, 1-linoleoyl-GPI* (18:2)*
+2021-09-12 15:10:16 INFO::Fitting model to feature number 393, 1-arachidonoyl-GPI* (20:4)*
+2021-09-12 15:10:16 INFO::Fitting model to feature number 394, 1-(1-enyl-palmitoyl)-2-oleoyl-GPE (P-16:0/18:1)*
+2021-09-12 15:10:16 INFO::Fitting model to feature number 395, 1-(1-enyl-palmitoyl)-2-palmitoyl-GPC (P-16:0/16:0)*
+2021-09-12 15:10:16 INFO::Fitting model to feature number 396, 1-(1-enyl-palmitoyl)-2-arachidonoyl-GPE (P-16:0/20:4)*
+2021-09-12 15:10:16 INFO::Fitting model to feature number 397, 1-(1-enyl-palmitoyl)-2-oleoyl-GPC (P-16:0/18:1)*
+2021-09-12 15:10:16 INFO::Fitting model to feature number 398, 1-(1-enyl-stearoyl)-2-linoleoyl-GPE (P-18:0/18:2)*
+2021-09-12 15:10:16 INFO::Fitting model to feature number 399, 1-(1-enyl-palmitoyl)-2-arachidonoyl-GPC (P-16:0/20:4)*
+2021-09-12 15:10:16 INFO::Fitting model to feature number 400, 1-(1-enyl-palmitoyl)-2-linoleoyl-GPC (P-16:0/18:2)*
+2021-09-12 15:10:16 INFO::Fitting model to feature number 401, 1-(1-enyl-stearoyl)-2-arachidonoyl-GPE (P-18:0/20:4)*
+2021-09-12 15:10:16 INFO::Fitting model to feature number 402, 1-(1-enyl-palmitoyl)-GPC (P-16:0)*
+2021-09-12 15:10:16 INFO::Fitting model to feature number 403, 1-(1-enyl-palmitoyl)-GPE (P-16:0)*
+2021-09-12 15:10:16 INFO::Fitting model to feature number 404, 1-(1-enyl-oleoyl)-GPE (P-18:1)*
+2021-09-12 15:10:16 INFO::Fitting model to feature number 405, 1-(1-enyl-stearoyl)-GPE (P-18:0)*
+2021-09-12 15:10:16 INFO::Fitting model to feature number 406, glycerol
+2021-09-12 15:10:16 INFO::Fitting model to feature number 407, glycerol 3-phosphate
+2021-09-12 15:10:17 INFO::Fitting model to feature number 408, glycerophosphoglycerol
+2021-09-12 15:10:17 INFO::Fitting model to feature number 409, 1-oleoylglycerol (18:1)
+2021-09-12 15:10:17 INFO::Fitting model to feature number 410, 1-linoleoylglycerol (18:2)
+2021-09-12 15:10:17 INFO::Fitting model to feature number 411, 1-arachidonylglycerol (20:4)
+2021-09-12 15:10:17 INFO::Fitting model to feature number 412, 2-oleoylglycerol (18:1)
+2021-09-12 15:10:17 INFO::Fitting model to feature number 413, 2-linoleoylglycerol (18:2)
+2021-09-12 15:10:17 INFO::Fitting model to feature number 414, diacylglycerol (14:0/18:1, 16:0/16:1) [1]*
+2021-09-12 15:10:17 INFO::Fitting model to feature number 415, diacylglycerol (14:0/18:1, 16:0/16:1) [2]*
+2021-09-12 15:10:17 INFO::Fitting model to feature number 416, diacylglycerol (16:1/18:2 [2], 16:0/18:3 [1])*
+2021-09-12 15:10:17 INFO::Fitting model to feature number 417, palmitoyl-palmitoyl-glycerol (16:0/16:0) [1]*
+2021-09-12 15:10:17 INFO::Fitting model to feature number 418, palmitoyl-palmitoyl-glycerol (16:0/16:0) [2]*
+2021-09-12 15:10:17 INFO::Fitting model to feature number 419, palmitoyl-oleoyl-glycerol (16:0/18:1) [1]*
+2021-09-12 15:10:17 INFO::Fitting model to feature number 420, palmitoyl-oleoyl-glycerol (16:0/18:1) [2]*
+2021-09-12 15:10:17 INFO::Fitting model to feature number 421, palmitoyl-linoleoyl-glycerol (16:0/18:2) [1]*
+2021-09-12 15:10:17 INFO::Fitting model to feature number 422, palmitoyl-linoleoyl-glycerol (16:0/18:2) [2]*
+2021-09-12 15:10:17 INFO::Fitting model to feature number 423, palmitoleoyl-linoleoyl-glycerol (16:1/18:2) [1]*
+2021-09-12 15:10:18 INFO::Fitting model to feature number 424, palmitoyl-arachidonoyl-glycerol (16:0/20:4) [1]*
+2021-09-12 15:10:18 INFO::Fitting model to feature number 425, palmitoyl-arachidonoyl-glycerol (16:0/20:4) [2]*
+2021-09-12 15:10:18 INFO::Fitting model to feature number 426, palmitoleoyl-arachidonoyl-glycerol (16:1/20:4) [2]*
+2021-09-12 15:10:18 INFO::Fitting model to feature number 427, palmitoyl-docosahexaenoyl-glycerol (16:0/22:6) [1]*
+2021-09-12 15:10:18 INFO::Fitting model to feature number 428, stearoyl-linoleoyl-glycerol (18:0/18:2) [1]*
+2021-09-12 15:10:18 INFO::Fitting model to feature number 429, stearoyl-linoleoyl-glycerol (18:0/18:2) [2]*
+2021-09-12 15:10:18 INFO::Fitting model to feature number 430, oleoyl-oleoyl-glycerol (18:1/18:1)  [1]*
+2021-09-12 15:10:18 INFO::Fitting model to feature number 431, oleoyl-oleoyl-glycerol (18:1/18:1) [2]*
+2021-09-12 15:10:18 INFO::Fitting model to feature number 432, oleoyl-linoleoyl-glycerol (18:1/18:2) [1]
+2021-09-12 15:10:18 INFO::Fitting model to feature number 433, oleoyl-linoleoyl-glycerol (18:1/18:2) [2]
+2021-09-12 15:10:18 INFO::Fitting model to feature number 434, oleoyl-linolenoyl-glycerol (18:1/18:3) [2]*
+2021-09-12 15:10:18 INFO::Fitting model to feature number 435, linoleoyl-linoleoyl-glycerol (18:2/18:2) [1]*
+2021-09-12 15:10:18 INFO::Fitting model to feature number 436, linoleoyl-linolenoyl-glycerol (18:2/18:3) [1]*
+2021-09-12 15:10:18 INFO::Fitting model to feature number 437, linoleoyl-linolenoyl-glycerol (18:2/18:3) [2]*
+2021-09-12 15:10:18 INFO::Fitting model to feature number 438, stearoyl-arachidonoyl-glycerol (18:0/20:4) [1]*
+2021-09-12 15:10:18 INFO::Fitting model to feature number 439, stearoyl-arachidonoyl-glycerol (18:0/20:4) [2]*
+2021-09-12 15:10:18 INFO::Fitting model to feature number 440, oleoyl-arachidonoyl-glycerol (18:1/20:4) [1]*
+2021-09-12 15:10:18 INFO::Fitting model to feature number 441, oleoyl-arachidonoyl-glycerol (18:1/20:4) [2]*
+2021-09-12 15:10:18 INFO::Fitting model to feature number 442, linoleoyl-arachidonoyl-glycerol (18:2/20:4) [1]*
+2021-09-12 15:10:18 INFO::Fitting model to feature number 443, linoleoyl-arachidonoyl-glycerol (18:2/20:4) [2]*
+2021-09-12 15:10:18 INFO::Fitting model to feature number 444, linoleoyl-docosahexaenoyl-glycerol (18:2/22:6) [1]*
+2021-09-12 15:10:18 INFO::Fitting model to feature number 445, linoleoyl-docosahexaenoyl-glycerol (18:2/22:6) [2]*
+2021-09-12 15:10:19 INFO::Fitting model to feature number 446, sphinganine
+2021-09-12 15:10:19 INFO::Fitting model to feature number 447, sphinganine-1-phosphate
+2021-09-12 15:10:19 INFO::Fitting model to feature number 448, N-palmitoyl-sphinganine (d18:0/16:0)
+2021-09-12 15:10:19 INFO::Fitting model to feature number 449, N-palmitoyl-sphingosine (d18:1/16:0)
+2021-09-12 15:10:19 INFO::Fitting model to feature number 450, N-stearoyl-sphingosine (d18:1/18:0)*
+2021-09-12 15:10:19 INFO::Fitting model to feature number 451, N-behenoyl-sphingadienine (d18:2/22:0)*
+2021-09-12 15:10:19 INFO::Fitting model to feature number 452, ceramide (d18:1/17:0, d17:1/18:0)*
+2021-09-12 15:10:19 INFO::Fitting model to feature number 453, ceramide (d18:1/20:0, d16:1/22:0, d20:1/18:0)*
+2021-09-12 15:10:19 INFO::Fitting model to feature number 454, ceramide (d16:1/24:1, d18:1/22:1)*
+2021-09-12 15:10:19 INFO::Fitting model to feature number 455, ceramide (d18:2/24:1, d18:1/24:2)*
+2021-09-12 15:10:19 INFO::Fitting model to feature number 456, glycosyl-N-palmitoyl-sphingosine (d18:1/16:0)
+2021-09-12 15:10:19 INFO::Fitting model to feature number 457, glycosyl-N-stearoyl-sphingosine (d18:1/18:0)
+2021-09-12 15:10:19 INFO::Fitting model to feature number 458, palmitoyl dihydrosphingomyelin (d18:0/16:0)*
+2021-09-12 15:10:19 INFO::Fitting model to feature number 459, behenoyl dihydrosphingomyelin (d18:0/22:0)*
+2021-09-12 15:10:19 INFO::Fitting model to feature number 460, sphingomyelin (d18:0/18:0, d19:0/17:0)*
+2021-09-12 15:10:19 INFO::Fitting model to feature number 461, palmitoyl sphingomyelin (d18:1/16:0)
+2021-09-12 15:10:19 INFO::Fitting model to feature number 462, stearoyl sphingomyelin (d18:1/18:0)
+2021-09-12 15:10:19 INFO::Fitting model to feature number 463, behenoyl sphingomyelin (d18:1/22:0)*
+2021-09-12 15:10:19 INFO::Fitting model to feature number 464, tricosanoyl sphingomyelin (d18:1/23:0)*
+2021-09-12 15:10:19 INFO::Fitting model to feature number 465, lignoceroyl sphingomyelin (d18:1/24:0)
+2021-09-12 15:10:19 INFO::Fitting model to feature number 466, sphingomyelin (d18:2/18:1)*
+2021-09-12 15:10:19 INFO::Fitting model to feature number 467, sphingomyelin (d18:2/23:1)*
+2021-09-12 15:10:19 INFO::Fitting model to feature number 468, sphingomyelin (d18:2/24:2)*
+2021-09-12 15:10:20 INFO::Fitting model to feature number 469, sphingomyelin (d18:1/14:0, d16:1/16:0)*
+2021-09-12 15:10:20 INFO::Fitting model to feature number 470, sphingomyelin (d17:1/16:0, d18:1/15:0, d16:1/17:0)*
+2021-09-12 15:10:20 INFO::Fitting model to feature number 471, sphingomyelin (d18:2/16:0, d18:1/16:1)*
+2021-09-12 15:10:20 INFO::Fitting model to feature number 472, sphingomyelin (d18:1/17:0, d17:1/18:0, d19:1/16:0)
+2021-09-12 15:10:20 INFO::Fitting model to feature number 473, sphingomyelin (d18:1/18:1, d18:2/18:0)
+2021-09-12 15:10:20 INFO::Fitting model to feature number 474, sphingomyelin (d18:1/19:0, d19:1/18:0)*
+2021-09-12 15:10:20 INFO::Fitting model to feature number 475, sphingomyelin (d18:1/20:0, d16:1/22:0)*
+2021-09-12 15:10:20 INFO::Fitting model to feature number 476, sphingomyelin (d18:1/20:1, d18:2/20:0)*
+2021-09-12 15:10:20 INFO::Fitting model to feature number 477, sphingomyelin (d18:1/20:2, d18:2/20:1, d16:1/22:2)*
+2021-09-12 15:10:20 INFO::Fitting model to feature number 478, sphingomyelin (d18:1/21:0, d17:1/22:0, d16:1/23:0)*
+2021-09-12 15:10:20 INFO::Fitting model to feature number 479, sphingomyelin (d18:2/21:0, d16:2/23:0)*
+2021-09-12 15:10:20 INFO::Fitting model to feature number 480, sphingomyelin (d18:1/22:1, d18:2/22:0, d16:1/24:1)*
+2021-09-12 15:10:20 INFO::Fitting model to feature number 481, sphingomyelin (d18:1/22:2, d18:2/22:1, d16:1/24:2)*
+2021-09-12 15:10:20 INFO::Fitting model to feature number 482, sphingomyelin (d18:2/23:0, d18:1/23:1, d17:1/24:1)*
+2021-09-12 15:10:20 INFO::Fitting model to feature number 483, sphingomyelin (d18:1/24:1, d18:2/24:0)*
+2021-09-12 15:10:20 INFO::Fitting model to feature number 484, sphingomyelin (d18:2/24:1, d18:1/24:2)*
+2021-09-12 15:10:20 INFO::Fitting model to feature number 485, sphingomyelin (d18:1/25:0, d19:0/24:1, d20:1/23:0, d19:1/24:0)*
+2021-09-12 15:10:20 INFO::Fitting model to feature number 486, sphingosine
+2021-09-12 15:10:20 INFO::Fitting model to feature number 487, sphingosine 1-phosphate
+2021-09-12 15:10:20 INFO::Fitting model to feature number 488, 3-hydroxy-3-methylglutarate
+2021-09-12 15:10:20 INFO::Fitting model to feature number 489, mevalonate
+2021-09-12 15:10:21 INFO::Fitting model to feature number 490, cholesterol
+2021-09-12 15:10:21 INFO::Fitting model to feature number 491, 7-HOCA
+2021-09-12 15:10:21 INFO::Fitting model to feature number 492, beta-sitosterol
+2021-09-12 15:10:21 INFO::Fitting model to feature number 493, campesterol
+2021-09-12 15:10:21 INFO::Fitting model to feature number 494, corticosterone
+2021-09-12 15:10:21 INFO::Fitting model to feature number 495, cholate
+2021-09-12 15:10:21 INFO::Fitting model to feature number 496, glycocholate
+2021-09-12 15:10:21 INFO::Fitting model to feature number 497, taurocholate
+2021-09-12 15:10:21 INFO::Fitting model to feature number 498, chenodeoxycholate
+2021-09-12 15:10:21 INFO::Fitting model to feature number 499, glycochenodeoxycholate
+2021-09-12 15:10:21 INFO::Fitting model to feature number 500, taurochenodeoxycholate
+2021-09-12 15:10:21 INFO::Fitting model to feature number 501, beta-muricholate
+2021-09-12 15:10:21 INFO::Fitting model to feature number 502, alpha-muricholate
+2021-09-12 15:10:21 INFO::Fitting model to feature number 503, tauro-alpha-muricholate
+2021-09-12 15:10:21 INFO::Fitting model to feature number 504, tauro-beta-muricholate
+2021-09-12 15:10:21 INFO::Fitting model to feature number 505, glyco-beta-muricholate
+2021-09-12 15:10:21 INFO::Fitting model to feature number 506, deoxycholate
+2021-09-12 15:10:21 INFO::Fitting model to feature number 507, glycodeoxycholate
+2021-09-12 15:10:21 INFO::Fitting model to feature number 508, taurodeoxycholate
+2021-09-12 15:10:21 INFO::Fitting model to feature number 509, ursodeoxycholate
+2021-09-12 15:10:21 INFO::Fitting model to feature number 510, tauroursodeoxycholate
+2021-09-12 15:10:22 INFO::Fitting model to feature number 511, 6-oxolithocholate
+2021-09-12 15:10:22 INFO::Fitting model to feature number 512, taurohyodeoxycholic acid
+2021-09-12 15:10:22 INFO::Fitting model to feature number 513, taurocholenate sulfate*
+2021-09-12 15:10:22 INFO::Fitting model to feature number 514, ursocholate
+2021-09-12 15:10:22 INFO::Fitting model to feature number 515, inosine
+2021-09-12 15:10:22 INFO::Fitting model to feature number 516, xanthosine
+2021-09-12 15:10:22 INFO::Fitting model to feature number 517, N1-methylinosine
+2021-09-12 15:10:22 INFO::Fitting model to feature number 518, urate
+2021-09-12 15:10:22 INFO::Fitting model to feature number 519, allantoin
+2021-09-12 15:10:22 INFO::Fitting model to feature number 520, allantoic acid
+2021-09-12 15:10:22 INFO::Fitting model to feature number 521, adenosine
+2021-09-12 15:10:22 INFO::Fitting model to feature number 522, adenine
+2021-09-12 15:10:22 INFO::Fitting model to feature number 523, 1-methyladenosine
+2021-09-12 15:10:22 INFO::Fitting model to feature number 524, N6-carbamoylthreonyladenosine
+2021-09-12 15:10:22 INFO::Fitting model to feature number 525, 7-methylguanine
+2021-09-12 15:10:22 INFO::Fitting model to feature number 526, N2,N2-dimethylguanosine
+2021-09-12 15:10:22 INFO::Fitting model to feature number 527, dihydroorotate
+2021-09-12 15:10:22 INFO::Fitting model to feature number 528, orotate
+2021-09-12 15:10:22 INFO::Fitting model to feature number 529, orotidine
+2021-09-12 15:10:22 INFO::Fitting model to feature number 530, uridine
+2021-09-12 15:10:22 INFO::Fitting model to feature number 531, uracil
+2021-09-12 15:10:23 INFO::Fitting model to feature number 532, pseudouridine
+2021-09-12 15:10:23 INFO::Fitting model to feature number 533, 5,6-dihydrouridine
+2021-09-12 15:10:23 INFO::Fitting model to feature number 534, 2'-deoxyuridine
+2021-09-12 15:10:23 INFO::Fitting model to feature number 535, 3-ureidopropionate
+2021-09-12 15:10:23 INFO::Fitting model to feature number 536, beta-alanine
+2021-09-12 15:10:23 INFO::Fitting model to feature number 537, N-acetyl-beta-alanine
+2021-09-12 15:10:23 INFO::Fitting model to feature number 538, cytidine
+2021-09-12 15:10:23 INFO::Fitting model to feature number 539, cytosine
+2021-09-12 15:10:23 INFO::Fitting model to feature number 540, 5-methylcytidine
+2021-09-12 15:10:23 INFO::Fitting model to feature number 541, 2'-deoxycytidine
+2021-09-12 15:10:23 INFO::Fitting model to feature number 542, 2'-O-methylcytidine
+2021-09-12 15:10:23 INFO::Fitting model to feature number 543, 5-methyl-2'-deoxycytidine
+2021-09-12 15:10:23 INFO::Fitting model to feature number 544, thymidine
+2021-09-12 15:10:23 INFO::Fitting model to feature number 545, quinolinate
+2021-09-12 15:10:23 INFO::Fitting model to feature number 546, nicotinamide
+2021-09-12 15:10:23 INFO::Fitting model to feature number 547, nicotinamide riboside
+2021-09-12 15:10:23 INFO::Fitting model to feature number 548, 1-methylnicotinamide
+2021-09-12 15:10:23 INFO::Fitting model to feature number 549, trigonelline (N'-methylnicotinate)
+2021-09-12 15:10:23 INFO::Fitting model to feature number 550, N1-Methyl-2-pyridone-5-carboxamide
+2021-09-12 15:10:23 INFO::Fitting model to feature number 551, pantothenate (Vitamin B5)
+2021-09-12 15:10:23 INFO::Fitting model to feature number 552, threonate
+2021-09-12 15:10:23 INFO::Fitting model to feature number 553, oxalate (ethanedioate)
+2021-09-12 15:10:23 INFO::Fitting model to feature number 554, gulonate*
+2021-09-12 15:10:23 INFO::Fitting model to feature number 555, alpha-tocopherol
+2021-09-12 15:10:24 INFO::Fitting model to feature number 556, alpha-CEHC sulfate
+2021-09-12 15:10:24 INFO::Fitting model to feature number 557, gamma-tocopherol/beta-tocopherol
+2021-09-12 15:10:24 INFO::Fitting model to feature number 558, heme
+2021-09-12 15:10:24 INFO::Fitting model to feature number 559, bilirubin
+2021-09-12 15:10:24 INFO::Fitting model to feature number 560, bilirubin (E,E)*
+2021-09-12 15:10:24 INFO::Fitting model to feature number 561, biliverdin
+2021-09-12 15:10:24 INFO::Fitting model to feature number 562, retinol (Vitamin A)
+2021-09-12 15:10:24 INFO::Fitting model to feature number 563, pyridoxamine
+2021-09-12 15:10:24 INFO::Fitting model to feature number 564, pyridoxal
+2021-09-12 15:10:24 INFO::Fitting model to feature number 565, pyridoxate
+2021-09-12 15:10:24 INFO::Fitting model to feature number 566, hippurate
+2021-09-12 15:10:24 INFO::Fitting model to feature number 567, benzoate
+2021-09-12 15:10:24 INFO::Fitting model to feature number 568, 4-ethylphenyl sulfate
+2021-09-12 15:10:24 INFO::Fitting model to feature number 569, p-cresol sulfate
+2021-09-12 15:10:24 INFO::Fitting model to feature number 570, 2-piperidinone
+2021-09-12 15:10:24 INFO::Fitting model to feature number 571, 2,3-dihydroxyisovalerate
+2021-09-12 15:10:24 INFO::Fitting model to feature number 572, 2-oxindole-3-acetate
+2021-09-12 15:10:24 INFO::Fitting model to feature number 573, 3-formylindole
+2021-09-12 15:10:24 INFO::Fitting model to feature number 574, gluconate
+2021-09-12 15:10:24 INFO::Fitting model to feature number 575, beta-guanidinopropanoate
+2021-09-12 15:10:24 INFO::Fitting model to feature number 576, ergothioneine
+2021-09-12 15:10:25 INFO::Fitting model to feature number 577, erythritol
+2021-09-12 15:10:25 INFO::Fitting model to feature number 578, homostachydrine*
+2021-09-12 15:10:25 INFO::Fitting model to feature number 579, mannonate*
+2021-09-12 15:10:25 INFO::Fitting model to feature number 580, stachydrine
+2021-09-12 15:10:25 INFO::Fitting model to feature number 581, tartronate (hydroxymalonate)
+2021-09-12 15:10:25 INFO::Fitting model to feature number 582, 2,6-dihydroxybenzoic acid
+2021-09-12 15:10:25 INFO::Fitting model to feature number 583, maleoylcarnitine
+2021-09-12 15:10:25 INFO::Fitting model to feature number 584, sulfate*
+2021-09-12 15:10:25 INFO::Fitting model to feature number 585, O-sulfo-L-tyrosine
+2021-09-12 15:10:25 INFO::Fitting model to feature number 586, 2-oxo-1-pyrrolidinepropionate
+2021-09-12 15:10:25 INFO::Fitting model to feature number 587, 6-hydroxyindole sulfate
+2021-09-12 15:10:25 INFO::Fitting model to feature number 588, thioproline
+2021-09-12 15:10:25 INFO::Fitting model to feature number 589, 6-acetylglucose
+2021-09-12 15:10:25 INFO::Counting prevalence for each feature
+2021-09-12 15:10:25 INFO::Writing all results to file (ordered by increasing q-values): analysis/Tweedieverse_output/all_results.tsv
+2021-09-12 15:10:25 INFO::Writing the significant results (those which are less than or equal to the threshold of 0.100000 ) to file (ordered by increasing q-values): analysis/Tweedieverse_output/significant_results.tsv
+2021-09-12 15:10:25 INFO::Writing association plots (one for each significant association) to output folder: analysis/Tweedieverse_output
+2021-09-12 15:10:25 INFO::Plotting associations from most to least significant, grouped by metadata
+2021-09-12 15:10:25 INFO::Plotting data for metadata number 1, Group
+2021-09-12 15:10:25 INFO::Creating boxplot for categorical data, Group vs N-acetylaspartate (NAA)
+2021-09-12 15:10:25 INFO::Creating boxplot for categorical data, Group vs mannitol/sorbitol
+2021-09-12 15:10:25 INFO::Creating boxplot for categorical data, Group vs alpha-ketoglutarate
+2021-09-12 15:10:26 INFO::Creating boxplot for categorical data, Group vs palmitoleate (16:1n7)
+2021-09-12 15:10:26 INFO::Creating boxplot for categorical data, Group vs docosahexaenoate (DHA; 22:6n3)
+2021-09-12 15:10:26 INFO::Creating boxplot for categorical data, Group vs 1-arachidonylglycerol (20:4)
+2021-09-12 15:10:26 INFO::Creating boxplot for categorical data, Group vs sphingosine
+2021-09-12 15:10:26 INFO::Creating boxplot for categorical data, Group vs campesterol
+2021-09-12 15:10:26 INFO::Creating boxplot for categorical data, Group vs hexadecadienoate (16:2n6)
+2021-09-12 15:10:26 INFO::Creating boxplot for categorical data, Group vs linoleoyl-docosahexaenoyl-glycerol (18:2/22:6) [2]*
+2021-09-12 15:10:26 INFO::Creating boxplot for categorical data, Group vs threonate
+2021-09-12 15:10:26 INFO::Creating boxplot for categorical data, Group vs sphinganine
+2021-09-12 15:10:27 INFO::Creating boxplot for categorical data, Group vs 2,6-dihydroxybenzoic acid
+2021-09-12 15:10:27 INFO::Creating boxplot for categorical data, Group vs docosapentaenoate (DPA; 22:5n3)
+2021-09-12 15:10:27 INFO::Creating boxplot for categorical data, Group vs N-acetylaspartate (NAA)
+2021-09-12 15:10:27 INFO::Creating boxplot for categorical data, Group vs N-acetylproline
+2021-09-12 15:10:27 INFO::Creating boxplot for categorical data, Group vs 10-heptadecenoate (17:1n7)
+2021-09-12 15:10:27 INFO::Creating boxplot for categorical data, Group vs docosapentaenoate (n6 DPA; 22:5n6)
+2021-09-12 15:10:27 INFO::Creating boxplot for categorical data, Group vs nicotinamide
+2021-09-12 15:10:27 INFO::Creating boxplot for categorical data, Group vs gulonate*
+2021-09-12 15:10:27 INFO::Creating boxplot for categorical data, Group vs stachydrine
+2021-09-12 15:10:28 INFO::Creating boxplot for categorical data, Group vs ribulonate/xylulonate/lyxonate*
+2021-09-12 15:10:28 INFO::Creating boxplot for categorical data, Group vs mannitol/sorbitol
+2021-09-12 15:10:28 INFO::Creating boxplot for categorical data, Group vs fumarate
+2021-09-12 15:10:28 INFO::Creating boxplot for categorical data, Group vs 5-dodecenoate (12:1n7)
+2021-09-12 15:10:28 INFO::Creating boxplot for categorical data, Group vs linolenate (18:3n3 or 3n6)
+2021-09-12 15:10:28 INFO::Creating boxplot for categorical data, Group vs 3-hydroxyadipate*
+2021-09-12 15:10:28 INFO::Creating boxplot for categorical data, Group vs phosphoethanolamine (PE)
+2021-09-12 15:10:28 INFO::Creating boxplot for categorical data, Group vs 1,2-dilinoleoyl-GPC (18:2/18:2)
+2021-09-12 15:10:28 INFO::Creating boxplot for categorical data, Group vs linoleoyl-docosahexaenoyl-glycerol (18:2/22:6) [1]*
+2021-09-12 15:10:29 INFO::Creating boxplot for categorical data, Group vs beta-sitosterol
+2021-09-12 15:10:29 INFO::Creating boxplot for categorical data, Group vs ophthalmate
+2021-09-12 15:10:29 INFO::Creating boxplot for categorical data, Group vs malate
+2021-09-12 15:10:29 INFO::Creating boxplot for categorical data, Group vs 3-hydroxybutyrate (BHBA)
+2021-09-12 15:10:29 INFO::Creating boxplot for categorical data, Group vs N1-methylinosine
+2021-09-12 15:10:29 INFO::Creating boxplot for categorical data, Group vs glucuronate
+2021-09-12 15:10:29 INFO::Creating boxplot for categorical data, Group vs 2-hydroxyglutarate
+2021-09-12 15:10:29 INFO::Creating boxplot for categorical data, Group vs palmitoyl-docosahexaenoyl-glycerol (16:0/22:6) [1]*
+2021-09-12 15:10:29 INFO::Creating boxplot for categorical data, Group vs chenodeoxycholate
+2021-09-12 15:10:30 INFO::Creating boxplot for categorical data, Group vs N-acetylmethionine
+2021-09-12 15:10:30 INFO::Creating boxplot for categorical data, Group vs cysteine
+2021-09-12 15:10:30 INFO::Creating boxplot for categorical data, Group vs 1-(1-enyl-palmitoyl)-2-oleoyl-GPE (P-16:0/18:1)*
+2021-09-12 15:10:30 INFO::Creating boxplot for categorical data, Group vs glycerol
+2021-09-12 15:10:30 INFO::Creating boxplot for categorical data, Group vs homostachydrine*
+2021-09-12 15:10:30 INFO::Creating boxplot for categorical data, Group vs pyruvate
+2021-09-12 15:10:30 INFO::Creating boxplot for categorical data, Group vs adrenate (22:4n6)
+2021-09-12 15:10:30 INFO::Creating boxplot for categorical data, Group vs linoleate (18:2n6)
+2021-09-12 15:10:31 INFO::Creating boxplot for categorical data, Group vs pyroglutamine*
+2021-09-12 15:10:31 INFO::Creating boxplot for categorical data, Group vs gamma-glutamylalanine
+2021-09-12 15:10:31 INFO::Creating boxplot for categorical data, Group vs pyruvate
+2021-09-12 15:10:31 INFO::Creating boxplot for categorical data, Group vs phenol sulfate
+2021-09-12 15:10:31 INFO::Creating boxplot for categorical data, Group vs oxalate (ethanedioate)
+2021-09-12 15:10:31 INFO::Creating boxplot for categorical data, Group vs 13-HODE + 9-HODE
+2021-09-12 15:10:31 INFO::Creating boxplot for categorical data, Group vs oleoyl-linolenoyl-glycerol (18:1/18:3) [2]*
+2021-09-12 15:10:31 INFO::Creating boxplot for categorical data, Group vs taurocholenate sulfate*
+2021-09-12 15:10:32 INFO::Plotting data for metadata number 2,

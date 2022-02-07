@@ -1,0 +1,101 @@
+	Group	Time	Site	Position	Position2	Animal
+31592	RYGB	Week 1	Aorta	C	P3	RYGB 7
+31593	RYGB	Week 1	Portal	C	P4	RYGB 7
+31594	RYGB	Week 1	Aorta	C	P5	RYGB 8
+31595	RYGB	Week 1	Portal	C	P6	RYGB 8
+31596	RYGB	Week 1	Aorta	C	P7	RYGB 9
+31597	RYGB	Week 1	Portal	C	P8	RYGB 9
+31598	RYGB	Week 1	Aorta	C	P9	RYGB 10
+31599	RYGB	Week 1	Portal	C	P10	RYGB 10
+31600	RYGB	Week 1	Aorta	D	P1	RYGB 11
+31601	RYGB	Week 1	Portal	D	P2	RYGB 11
+31602	Sham	Week 1	Aorta	F	P5	Sham 1
+31603	Sham	Week 1	Portal	F	P6	Sham 1
+31604	Sham	Week 1	Aorta	F	P1	Sham 
+31605	Sham	Week 1	Portal	F	P2	Sham 
+31606	Sham	Week 1	Aorta	F	P7	Sham 3
+31607	Sham	Week 1	Portal	F	P8	Sham 3
+31608	Sham	Week 1	Aorta	F	P9	Sham 4
+31609	Sham	Week 1	Portal	F	P10	Sham 4
+31610	Sham	Week 1	Aorta	G	P1	Sham 6
+31611	Sham	Week 1	Portal	G	P2	Sham 6
+31612	Weight Matched	Week 1	Aorta	G	P3	PF-1 1
+31613	Weight Matched	Week 1	Portal	G	P4	PF-1 1
+31614	Weight Matched	Week 1	Aorta	G	P5	PF-2 1
+31615	Weight Matched	Week 1	Portal	G	P6	PF-2 1
+31616	Weight Matched	Week 1	Aorta	G	P7	PF-3 1
+31617	Weight Matched	Week 1	Portal	G	P8	PF-3 1
+31618	Weight Matched	Week 1	Aorta	H	P3	WM-4 1
+31619	Weight Matched	Week 1	Portal	H	P4	WM-4 1
+31620	Weight Matched	Week 1	Aorta	H	P5	WM-6 1
+31621	Weight Matched	Week 1	Portal	H	P6	WM-6 1
+31622	RYGB	Month 1	Aorta	C	P1	RYGB 1B
+31623	RYGB	Month 1	Portal	C	P2	RYGB 1B
+31624	RYGB	Month 1	Aorta	C	P3	RYGB 1C
+31625	RYGB	Month 1	Portal	C	P4	RYGB 1C
+31626	RYGB	Month 1	Aorta	A	P1	RYGB 1D
+31627	RYGB	Month 1	Portal	A	P2	RYGB 1D
+31628	RYGB	Month 1	Aorta	A	P3	RYGB 1E
+31629	RYGB	Month 1	Portal	A	P4	RYGB 1E
+31630	RYGB	Month 1	Aorta	A	P5	RYGB 1F
+31631	RYGB	Month 1	Portal	A	P6	RYGB 1F
+31632	Sham	Month 1	Aorta	G	P1	Sham 1A
+31633	Sham	Month 1	Portal	G	P2	Sham 1A
+31634	Sham	Month 1	Aorta	G	P3	Sham 1B
+31635	Sham	Month 1	Portal	G	P4	Sham 1B
+31636	Sham	Month 1	Aorta	G	P5	Sham 1C
+31637	Sham	Month 1	Portal	G	P6	Sham 1C
+31638	Sham	Month 1	Aorta	D	P3	Sham 1D
+31639	Sham	Month 1	Portal	D	P4	Sham 1D
+31640	Sham	Month 1	Aorta	D	P5	Sham 1E
+31641	Sham	Month 1	Portal	D	P6	Sham 1E
+31642	Paired fed	Month 1	Aorta	H	P3	PF-1 1
+31643	Paired fed	Month 1	Portal	H	P4	PF-1 1
+31644	Paired fed	Month 1	Aorta	G	P9	PF-2 1
+31645	Paired fed	Month 1	Portal	G	P10	PF-2 1
+31646	Paired fed	Month 1	Aorta	H	P1	PF-3 1
+31647	Paired fed	Month 1	Portal	H	P2	PF-3 1
+31648	Paired fed	Month 1	Aorta	I	P3	PF-4 1
+31649	Paired fed	Month 1	Portal	I	P4	PF-4 1
+31650	Paired fed	Month 1	Aorta	I	P5	PF-5 1
+31651	Paired fed	Month 1	Portal	I	P6	PF-5 1
+31652	Weight Matched	Month 1	Aorta	H	P7	WM-2 1
+31653	Weight Matched	Month 1	Portal	H	P8	WM-2 1
+31654	Weight Matched	Month 1	Aorta	I	P1	WM-3 1
+31655	Weight Matched	Month 1	Portal	I	P2	WM-3 1
+31656	Weight Matched	Month 1	Aorta	H	P7	WM-4 1
+31657	Weight Matched	Month 1	Portal	H	P8	WM-4 1
+31658	Weight Matched	Month 1	Aorta	H	P9	WM-5 1
+31659	Weight Matched	Month 1	Portal	H	P10	WM-5 1
+31660	Weight Matched	Month 1	Aorta	I	P1	WM-6 1
+31661	Weight Matched	Month 1	Portal	I	P2	WM-6 1
+31662	RYGB	Month 3	Aorta	C	P5	RYGB 3A
+31663	RYGB	Month 3	Portal	C	P6	RYGB 3A
+31664	RYGB	Month 3	Aorta	C	P7	RYGB 3B
+31665	RYGB	Month 3	Portal	C	P8	RYGB 3B
+31666	RYGB	Month 3	Aorta	D	P1	RYGB 3C
+31667	RYGB	Month 3	Portal	D	P2	RYGB 3C
+31668	RYGB	Month 3	Aorta	A	P9	RYGB 3D
+31669	RYGB	Month 3	Portal	A	P10	RYGB 3D
+31670	RYGB	Month 3	Aorta	D	P3	RYGB 6A
+31671	RYGB	Month 3	Portal	D	P4	RYGB 6A
+31672	Sham	Month 3	Aorta	D	P9	Sham 3A
+31673	Sham	Month 3	Portal	D	P10	Sham 3A
+31674	Sham	Month 3	Aorta	G	P7	Sham 3B
+31675	Sham	Month 3	Portal	G	P8	Sham 3B
+31676	Sham	Month 3	Aorta	H	P1	Sham 3C
+31677	Sham	Month 3	Portal	H	P2	Sham 3C
+31678	Sham	Month 3	Aorta	E	P1	Sham 3D
+31679	Sham	Month 3	Portal	E	P2	Sham 3D
+31680	Sham	Month 3	Aorta	E	P3	Sham 6A
+31681	Sham	Month 3	Portal	E	P4	Sham 6A
+31682	Weight Matched	Month 3	Aorta	I	P9	WM-1 3
+31683	Weight Matched	Month 3	Portal	I	P10	WM-1 3
+31684	Weight Matched	Month 3	Aorta	J	P1	WM-2 3
+31685	Weight Matched	Month 3	Portal	J	P2	WM-2 3
+31686	Weight Matched	Month 3	Aorta	J	P3	WM-3 3
+31687	Weight Matched	Month 3	Portal	J	P4	WM-3 3
+31688	Weight Matched	Month 3	Aorta	J	P5	WM-4 3
+31689	Weight Matched	Month 3	Portal	J	P6	WM-4 3
+31690	Weight Matched	Month 3	Aorta	J	P7	WM-5 3
+31691	Weight Matched	Month 3	Portal	J	P8	WM-5 3

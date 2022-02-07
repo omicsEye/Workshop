@@ -1,0 +1,11 @@
+09/12/2021 04:40:42 PM - omeClust.omeClust - INFO: enrichment_method 	 'nmi'
+09/12/2021 04:40:42 PM - omeClust.omeClust - INFO: estimated_number_of_clusters 	 2
+09/12/2021 04:40:42 PM - omeClust.omeClust - INFO: input 	 'data/dist_4_0.001_4_200.txt'
+09/12/2021 04:40:42 PM - omeClust.omeClust - INFO: linkage_method 	 'single'
+09/12/2021 04:40:42 PM - omeClust.omeClust - INFO: metadata 	 'data/truth_4_0.001_4_200.txt'
+09/12/2021 04:40:42 PM - omeClust.omeClust - INFO: output 	 'analysis/omeClust_synthetic_output'
+09/12/2021 04:40:42 PM - omeClust.omeClust - INFO: plot 	 True
+09/12/2021 04:40:42 PM - omeClust.omeClust - INFO: resolution 	 'low'
+09/12/2021 04:40:42 PM - omeClust.omeClust - INFO: similarity 	 'spearman'
+09/12/2021 04:40:42 PM - omeClust.omeClust - INFO: size_to_plot 	 None
+09/12/2021 04:40:42 PM - omeClust.omeClust - INFO: verbose 	 False
