@@ -4,7 +4,7 @@ library(devtools)
 devtools::install_github("himelmallick/Tweedieverse")
 library(Tweedieverse)
 
-setwd("~/Dropbox/Workshop/ICSA_2021/ICSA_2021_Workshop")
+setwd("~/Downloads/Workshop-main")
 
 metadata <- read.table(
   'data/sample_info.txt',
