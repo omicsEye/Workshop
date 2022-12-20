@@ -2,6 +2,7 @@
 Omics Data Science Workshops:
 
 Current and coming workshops:
+* [ISMB/ECCB 2023 Tutorial](https://github.com/omicsEye/Workshop/wiki/ISMB2023_Tutorial)
 * [Omics Data Science Workshop 2022](https://github.com/omicsEye/Workshop/wiki/ODS2022)
 
 Previous wrokshops:
