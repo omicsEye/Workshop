@@ -2,9 +2,9 @@
 Omics Data Science Workshops:
 
 Current and coming workshops:
-* [ENAR 2024](https://github.com/omicsEye/Workshop/wiki/ENAR2024)
-* [ENAR 2023](https://github.com/omicsEye/Workshop/wiki/JSM2023)
-* [ISMB/ECCB 2023 Tutorial](https://github.com/omicsEye/Workshop/wiki/ISMB2023_Tutorial)
+* [ENAR2024](https://github.com/omicsEye/Workshop/wiki/ENAR2024)
+* [JSM2023](https://github.com/omicsEye/Workshop/wiki/JSM2023)
+* [ISMB/ECCB2023 Tutorial](https://github.com/omicsEye/Workshop/wiki/ISMB2023_Tutorial)
 * [MetSoc2023](https://github.com/omicsEye/Workshop/wiki/MetSoc2023)
 * [Omics Data Science Workshop 2022](https://github.com/omicsEye/Workshop/wiki/ODS2022)
 
