@@ -2,6 +2,7 @@
 Omics Data Science Workshops:
 
 Current and coming workshops:
+* [Omics Data Analysis Workshop ‐ MUHAS Tanzania](https://[github.com/omicsEye/Workshop/wiki/ENAR2024](https://github.com/omicsEye/Workshop/wiki/Omics-Data-Analysis-Workshop-%E2%80%90-MUHAS-Tanzania)
 * [ENAR2024](https://github.com/omicsEye/Workshop/wiki/ENAR2024)
 * [JSM2023](https://github.com/omicsEye/Workshop/wiki/JSM2023)
 * [ISMB/ECCB2023 Tutorial](https://github.com/omicsEye/Workshop/wiki/ISMB2023_Tutorial)
